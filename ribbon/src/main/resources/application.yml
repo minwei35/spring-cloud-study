@@ -1,0 +1,10 @@
+server:
+  port: 28761
+spring:
+  application:
+    name: ribbon
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+#      defaultZone: http://192.168.10.46:8761/eureka/,http://192.168.10.46:8762/eureka/,http://192.168.10.46:8763/eureka/

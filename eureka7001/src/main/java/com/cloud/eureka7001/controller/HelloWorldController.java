@@ -11,7 +11,7 @@ public class HelloWorldController {
     @Value("${server.port}")
     private String port;
 
-    @RequestMapping("/hello")
+    @RequestMapping("/info")
     public String getInfo(){
         String message = "hello world!";
         return message;
