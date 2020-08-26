@@ -1,8 +1,8 @@
 server:
-  port: 7002
+  port: 38761
 spring:
   application:
-    name: eureka-client-7001
+    name: ribbon-hystrix
 eureka:
   client:
     service-url:
